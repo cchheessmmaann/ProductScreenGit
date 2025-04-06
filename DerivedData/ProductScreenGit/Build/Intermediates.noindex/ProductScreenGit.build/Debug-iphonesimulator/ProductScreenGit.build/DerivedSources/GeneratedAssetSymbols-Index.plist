@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>colors</key>
+	<array/>
+	<key>images</key>
+	<array>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/cristina/Desktop/fill/ProductScreenGit/ProductScreenGit/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameShoes</string>
+			<key>relativePath</key>
+			<string>./Shoes.imageset</string>
+			<key>swiftSymbol</key>
+			<string>shoes</string>
+		</dict>
+	</array>
+	<key>symbols</key>
+	<array/>
+</dict>
+</plist>

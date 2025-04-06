@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0D9D8086029B266355D01F5EE6F543A1851ECA29",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3AF18F9C6F5D633BAA0B3F935459E0C777C82047" : 0,
+    "0D9D8086029B266355D01F5EE6F543A1851ECA29" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "02378B53-5B0A-441C-89C3-D211324D2A8D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3AF18F9C6F5D633BAA0B3F935459E0C777C82047" : "ProductScreenGit\/DerivedData\/ProductScreenGit\/SourcePackages\/checkouts\/SnapKit\/",
+    "0D9D8086029B266355D01F5EE6F543A1851ECA29" : "ProductScreenGit\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ProductScreenGit",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ProductScreenGit.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/cchheessmmaann\/ProductScreenGit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0D9D8086029B266355D01F5EE6F543A1851ECA29"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/cristina\/Desktop\/fill\/ProductScreenGit\/DerivedData\/ProductScreenGit\/SourcePackages\/repositories\/SnapKit-a5691e5b",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3AF18F9C6F5D633BAA0B3F935459E0C777C82047"
+    }
+  ]
+}

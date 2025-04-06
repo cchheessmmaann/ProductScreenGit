@@ -1,0 +1,30 @@
+{
+  "" : {
+    "dependencies" : "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/Index.noindex/Build/Intermediates.noindex/ProductScreenGit.build/Debug-iphoneos/ProductScreenGit.build/Objects-normal/arm64/ProductScreenGit-master.d",
+    "diagnostics" : "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/Index.noindex/Build/Intermediates.noindex/ProductScreenGit.build/Debug-iphoneos/ProductScreenGit.build/Objects-normal/arm64/ProductScreenGit-master.dia",
+    "emit-module-dependencies" : "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/Index.noindex/Build/Intermediates.noindex/ProductScreenGit.build/Debug-iphoneos/ProductScreenGit.build/Objects-normal/arm64/ProductScreenGit-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/Index.noindex/Build/Intermediates.noindex/ProductScreenGit.build/Debug-iphoneos/ProductScreenGit.build/Objects-normal/arm64/ProductScreenGit-master-emit-module.dia",
+    "swift-dependencies" : "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/Index.noindex/Build/Intermediates.noindex/ProductScreenGit.build/Debug-iphoneos/ProductScreenGit.build/Objects-normal/arm64/ProductScreenGit-master.swiftdeps"
+  },
+  "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/Index.noindex/Build/Intermediates.noindex/ProductScreenGit.build/Debug-iphoneos/ProductScreenGit.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+
+  },
+  "/Users/cristina/Desktop/fill/ProductScreenGit/ProductScreenGit/AppDelegate.swift" : {
+
+  },
+  "/Users/cristina/Desktop/fill/ProductScreenGit/ProductScreenGit/InfoButton.swift" : {
+
+  },
+  "/Users/cristina/Desktop/fill/ProductScreenGit/ProductScreenGit/MainButton.swift" : {
+
+  },
+  "/Users/cristina/Desktop/fill/ProductScreenGit/ProductScreenGit/MainViewController.swift" : {
+
+  },
+  "/Users/cristina/Desktop/fill/ProductScreenGit/ProductScreenGit/ProductViewController.swift" : {
+
+  },
+  "/Users/cristina/Desktop/fill/ProductScreenGit/ProductScreenGit/SceneDelegate.swift" : {
+
+  }
+}

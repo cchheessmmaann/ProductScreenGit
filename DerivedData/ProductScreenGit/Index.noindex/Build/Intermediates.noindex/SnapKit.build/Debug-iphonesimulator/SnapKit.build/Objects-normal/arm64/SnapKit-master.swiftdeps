@@ -1,0 +1,77 @@
+version: "Apple Swift version 6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)"
+options: "132dd6e2b66c4db91ed873eff735aad101a3941605ab1d7397efc2236dc6683b"
+build_start_time: [1743823884, 158098000]
+build_end_time: [1743823885, 102667000]
+inputs:
+  ? "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/SourcePackages/checkouts/SnapKit/Source/Constraint.swift"
+  : [1743819700, 97425946]
+  ? "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/SourcePackages/checkouts/SnapKit/Source/ConstraintAttributes.swift"
+  : [1743819700, 97535112]
+  ? "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/SourcePackages/checkouts/SnapKit/Source/ConstraintConfig.swift"
+  : [1743819700, 97617196]
+  ? "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/SourcePackages/checkouts/SnapKit/Source/ConstraintConstantTarget.swift"
+  : [1743819700, 97718696]
+  ? "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/SourcePackages/checkouts/SnapKit/Source/ConstraintDSL.swift"
+  : [1743819700, 97809571]
+  ? "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/SourcePackages/checkouts/SnapKit/Source/ConstraintDescription.swift"
+  : [1743819700, 97941071]
+  ? "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/SourcePackages/checkouts/SnapKit/Source/ConstraintDirectionalInsetTarget.swift"
+  : [1743819700, 98011696]
+  ? "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/SourcePackages/checkouts/SnapKit/Source/ConstraintDirectionalInsets.swift"
+  : [1743819700, 98084862]
+  ? "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/SourcePackages/checkouts/SnapKit/Source/ConstraintInsetTarget.swift"
+  : [1743819700, 98247779]
+  ? "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/SourcePackages/checkouts/SnapKit/Source/ConstraintInsets.swift"
+  : [1743819700, 98353612]
+  ? "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/SourcePackages/checkouts/SnapKit/Source/ConstraintItem.swift"
+  : [1743819700, 98457529]
+  ? "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/SourcePackages/checkouts/SnapKit/Source/ConstraintLayoutGuide+Extensions.swift"
+  : [1743819700, 98600487]
+  ? "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/SourcePackages/checkouts/SnapKit/Source/ConstraintLayoutGuide.swift"
+  : [1743819700, 98681821]
+  ? "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/SourcePackages/checkouts/SnapKit/Source/ConstraintLayoutGuideDSL.swift"
+  : [1743819700, 98831612]
+  ? "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/SourcePackages/checkouts/SnapKit/Source/ConstraintLayoutSupport.swift"
+  : [1743819700, 98898029]
+  ? "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/SourcePackages/checkouts/SnapKit/Source/ConstraintLayoutSupportDSL.swift"
+  : [1743819700, 98967029]
+  ? "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/SourcePackages/checkouts/SnapKit/Source/ConstraintMaker.swift"
+  : [1743819700, 99043237]
+  ? "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/SourcePackages/checkouts/SnapKit/Source/ConstraintMakerEditable.swift"
+  : [1743819700, 99116237]
+  ? "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/SourcePackages/checkouts/SnapKit/Source/ConstraintMakerExtendable.swift"
+  : [1743819700, 99204862]
+  ? "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/SourcePackages/checkouts/SnapKit/Source/ConstraintMakerFinalizable.swift"
+  : [1743819700, 99283987]
+  ? "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/SourcePackages/checkouts/SnapKit/Source/ConstraintMakerPriortizable.swift"
+  : [1743819700, 99370945]
+  ? "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/SourcePackages/checkouts/SnapKit/Source/ConstraintMakerRelatable.swift"
+  : [1743819700, 99467112]
+  ? "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/SourcePackages/checkouts/SnapKit/Source/ConstraintMultiplierTarget.swift"
+  : [1743819700, 99543987]
+  ? "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/SourcePackages/checkouts/SnapKit/Source/ConstraintOffsetTarget.swift"
+  : [1743819700, 99620904]
+  ? "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/SourcePackages/checkouts/SnapKit/Source/ConstraintPriority.swift"
+  : [1743819700, 99698737]
+  ? "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/SourcePackages/checkouts/SnapKit/Source/ConstraintPriorityTarget.swift"
+  : [1743819700, 99762695]
+  ? "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/SourcePackages/checkouts/SnapKit/Source/ConstraintRelatableTarget.swift"
+  : [1743819700, 99843529]
+  ? "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/SourcePackages/checkouts/SnapKit/Source/ConstraintRelation.swift"
+  : [1743819700, 99938654]
+  ? "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/SourcePackages/checkouts/SnapKit/Source/ConstraintView+Extensions.swift"
+  : [1743819700, 100035737]
+  ? "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/SourcePackages/checkouts/SnapKit/Source/ConstraintView.swift"
+  : [1743819700, 100105237]
+  ? "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/SourcePackages/checkouts/SnapKit/Source/ConstraintViewDSL.swift"
+  : [1743819700, 100201612]
+  ? "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/SourcePackages/checkouts/SnapKit/Source/Debugging.swift"
+  : [1743819700, 100290779]
+  ? "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/SourcePackages/checkouts/SnapKit/Source/LayoutConstraint.swift"
+  : [1743819700, 100458570]
+  ? "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/SourcePackages/checkouts/SnapKit/Source/LayoutConstraintItem.swift"
+  : [1743819700, 100576528]
+  ? "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/SourcePackages/checkouts/SnapKit/Source/Typealiases.swift"
+  : [1743819700, 100871695]
+  ? "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/SourcePackages/checkouts/SnapKit/Source/UILayoutSupport+Extensions.swift"
+  : [1743819700, 100962612]

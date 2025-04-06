@@ -1,0 +1,30 @@
+"/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/SourcePackages/checkouts/SnapKit/Source/ConstraintConstantTarget.swift":
+  swift-dependencies: "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintConstantTarget.swiftdeps"
+  diagnostics: "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintConstantTarget.dia"
+  dependencies: "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintConstantTarget.d"
+  object: "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintConstantTarget.o"
+  const-values: "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintConstantTarget.swiftconstvalues"
+"/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/SourcePackages/checkouts/SnapKit/Source/ConstraintAttributes.swift":
+  diagnostics: "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintAttributes.dia"
+  object: "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintAttributes.o"
+  dependencies: "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintAttributes.d"
+  const-values: "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintAttributes.swiftconstvalues"
+  swift-dependencies: "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintAttributes.swiftdeps"
+"/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/SourcePackages/checkouts/SnapKit/Source/Constraint.swift":
+  object: "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/Constraint.o"
+  swift-dependencies: "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/Constraint.swiftdeps"
+  diagnostics: "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/Constraint.dia"
+  const-values: "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/Constraint.swiftconstvalues"
+  dependencies: "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/Constraint.d"
+"/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/SourcePackages/checkouts/SnapKit/Source/ConstraintConfig.swift":
+  object: "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintConfig.o"
+  dependencies: "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintConfig.d"
+  diagnostics: "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintConfig.dia"
+  const-values: "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintConfig.swiftconstvalues"
+  swift-dependencies: "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintConfig.swiftdeps"
+"/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/SourcePackages/checkouts/SnapKit/Source/ConstraintDSL.swift":
+  dependencies: "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintDSL.d"
+  swift-dependencies: "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintDSL.swiftdeps"
+  const-values: "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintDSL.swiftconstvalues"
+  object: "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintDSL.o"
+  diagnostics: "/Users/cristina/Desktop/fill/ProductScreenGit/DerivedData/ProductScreenGit/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintDSL.dia"
