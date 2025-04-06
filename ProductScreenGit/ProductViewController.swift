@@ -11,6 +11,8 @@ import SnapKit
 class ProductViewController: UIViewController {
     
     // MARK: - UIElements
+    private let sizes = ["XXS","XS", "S", "M", "L", "XL", "XXL"]
+    private var selectedSize: String?
     
     private lazy var containerView: UIView = {
         let view = UIView()
@@ -95,18 +97,58 @@ class ProductViewController: UIViewController {
         return but
     }()
     
+    private lazy var borderView: UIView = {
+        let view = UIView()
+        view.backgroundColor = .white
+        return view
+    }()
+
+    private lazy var sizeScrollView: UIScrollView = {
+        let scroll = UIScrollView()
+        return scroll
+    }()
+
+    private lazy var sizeContentStack: UIStackView = {
+        let stack = UIStackView()
+        stack.axis = .horizontal
+        stack.spacing = 8
+        return stack
+    }()
+
     // MARK: - Lifecycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
         configureUI()
         
+        bind(sizes: sizes)
     }
     
     // MARK: - Methods
-    
+    func bind(sizes: [String], selectedSize: String? = nil) {
+        sizeContentStack.subviews.forEach { $0.removeFromSuperview() }
+        sizeContentStack.subviews.forEach { sizeContentStack.removeArrangedSubview($0) }
+
+        for size in sizes {
+            let view = SizeEntityView()
+            view.bind(size: size, isSelected: selectedSize == size)
+            view.delegate = self
+            sizeContentStack.addArrangedSubview(view)
+
+        }
+
+    }
+
 }
 
+extension ProductViewController: SizeEntityViewDelegate {
+
+    func didSelectSize(with size: String) {
+        bind(sizes: sizes, selectedSize: size)
+    }
+
+}
+    
 extension ProductViewController {
     
         func configureUI() {
@@ -122,16 +164,37 @@ extension ProductViewController {
             containerButtonView.snp.makeConstraints { make in
                 make.leading.trailing.equalToSuperview()
                 make.bottom.equalTo(view.safeAreaLayoutGuide)
-                make.height.equalTo(68)
+                make.height.equalTo(126)
             }
     
             containerButtonView.addSubview(buyButton)
             buyButton.snp.makeConstraints { make in
                 make.leading.trailing.equalToSuperview().inset(16)
                 make.bottom.equalToSuperview().inset(8)
-                make.top.equalToSuperview().inset(12)
+                make.height.equalTo(48)
             }
     
+            
+            containerButtonView.addSubview(borderView)
+            borderView.snp.makeConstraints { make in
+                make.leading.trailing.equalToSuperview().inset(16)
+                make.height.equalTo(1)
+                make.bottom.equalTo(buyButton.snp.top).inset(-12)
+            }
+            
+            containerButtonView.addSubview(sizeScrollView)
+            sizeScrollView.snp.makeConstraints { make in
+                make.height.equalTo(34)
+                make.leading.trailing.equalToSuperview().inset(16)
+                make.bottom.equalTo(borderView.snp.top).inset(-12)
+            }
+
+            sizeScrollView.addSubview(sizeContentStack)
+            sizeContentStack.snp.makeConstraints { make in
+                make.edges.equalTo(sizeScrollView.contentLayoutGuide)
+                make.height.equalTo(sizeScrollView.snp.height)
+            }
+
             //add scroll
             containerView.addSubview(screenScrollView)
             screenScrollView.snp.makeConstraints { make in
@@ -172,7 +235,9 @@ extension ProductViewController {
             }
             
             contentStack.addArrangedSubview(descriptionLable)
+            
 
+        
     
             // MARK: - Configure
     
