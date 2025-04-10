@@ -6,6 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		6B0835A12DA2FF9200448004 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6B0835A02DA2FF9200448004 /* SnapKit */; };
+		6B229B192DA0C07B007BAA13 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6B229B182DA0C07B007BAA13 /* SnapKit */; };
+		6B927D162DA0CA00001E520B /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6B927D152DA0CA00001E520B /* SnapKit */; };
+		6B927D192DA0CAC4001E520B /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6B927D182DA0CAC4001E520B /* SnapKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		6BC4B1D22D9EBF210050963F /* ProductScreenGit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProductScreenGit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -36,17 +43,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B927D192DA0CAC4001E520B /* SnapKit in Frameworks */,
+				6B0835A12DA2FF9200448004 /* SnapKit in Frameworks */,
+				6B229B192DA0C07B007BAA13 /* SnapKit in Frameworks */,
+				6B927D162DA0CA00001E520B /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32A4212E12FE5E1ED44BAB71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6BC4B1C92D9EBF210050963F = {
 			isa = PBXGroup;
 			children = (
 				6BC4B1D42D9EBF210050963F /* ProductScreenGit */,
 				6BC4B1D32D9EBF210050963F /* Products */,
+				32A4212E12FE5E1ED44BAB71 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,9 +84,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6BC4B1E52D9EBF230050963F /* Build configuration list for PBXNativeTarget "ProductScreenGit" */;
 			buildPhases = (
+				140437EF9956371848C7277C /* [CP] Check Pods Manifest.lock */,
 				6BC4B1CE2D9EBF210050963F /* Sources */,
 				6BC4B1CF2D9EBF210050963F /* Frameworks */,
 				6BC4B1D02D9EBF210050963F /* Resources */,
+				F68DFAA8DA5A5DDCE7FAE370 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -77,8 +98,6 @@
 				6BC4B1D42D9EBF210050963F /* ProductScreenGit */,
 			);
 			name = ProductScreenGit;
-			packageProductDependencies = (
-			);
 			productName = ProductScreenGit;
 			productReference = 6BC4B1D22D9EBF210050963F /* ProductScreenGit.app */;
 			productType = "com.apple.product-type.application";
@@ -107,6 +126,9 @@
 			);
 			mainGroup = 6BC4B1C92D9EBF210050963F;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				6B08359F2DA2FF9200448004 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 6BC4B1D32D9EBF210050963F /* Products */;
 			projectDirPath = "";
@@ -126,6 +148,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		140437EF9956371848C7277C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+			showEnvVarsInLog = 0;
+		};
+		F68DFAA8DA5A5DDCE7FAE370 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6BC4B1CE2D9EBF210050963F /* Sources */ = {
@@ -333,6 +394,56 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6B08359F2DA2FF9200448004 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		6B229B172DA0C07B007BAA13 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+		6B927D172DA0CAC4001E520B /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6B0835A02DA2FF9200448004 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6B08359F2DA2FF9200448004 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		6B229B182DA0C07B007BAA13 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6B229B172DA0C07B007BAA13 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		6B927D152DA0CA00001E520B /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6B229B172DA0C07B007BAA13 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		6B927D182DA0CAC4001E520B /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6B927D172DA0CAC4001E520B /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6BC4B1CA2D9EBF210050963F /* Project object */;
 }
