@@ -12,7 +12,7 @@ class InfoButton: UIButton {
 
     private lazy var image: UIImageView = {
         let image = UIImageView()
-        image.image = UIImage(systemName: "InfoButton")
+        image.image = Resources.Images.infoButtonImage
         return image
     }()
 

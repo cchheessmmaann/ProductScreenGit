@@ -14,7 +14,7 @@ class MainButton: UIButton {
         let label = UILabel()
         label.text = " В корзину · 14 999 ₽"
         label.textAlignment = .center
-        label.textColor = .white
+        label.textColor = Resources.FigmaColors.whiteColor
         label.font = UIFont(name: "SFProText-Semibold", size: 15)
         return label
     }()
@@ -33,7 +33,7 @@ class MainButton: UIButton {
 
     func configureUI() {
 
-        backgroundColor = .brown
+        backgroundColor = Resources.FigmaColors.buyButtonColor
         layer.cornerRadius = 10
 
         addSubview(label)

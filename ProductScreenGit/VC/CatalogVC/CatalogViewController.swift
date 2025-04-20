@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 import SnapKit
 
-class MainViewController: UIViewController {
+class CatalogViewController: UIViewController {
 
     
     private lazy var button: UIButton = {
@@ -36,7 +36,7 @@ class MainViewController: UIViewController {
     }
 }
 
-extension MainViewController {
+extension CatalogViewController {
     
     func setupUI() {
         view.backgroundColor = .white
