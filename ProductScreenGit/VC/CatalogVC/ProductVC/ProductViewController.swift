@@ -12,7 +12,10 @@ class ProductViewController: UIViewController {
     
     // MARK: - UIElements
     private let sizes = ["XXS","XS", "S", "M", "L", "XL", "XXL"]
+    
     private var selectedSize: String?
+    
+    var productId: String
     
     private lazy var containerView: UIView = {
         let view = UIView()
@@ -36,14 +39,14 @@ class ProductViewController: UIViewController {
     
     private lazy var itemImage: UIImageView = {
         let imageView = UIImageView()
-        imageView.image = UIImage(named: "Shoes")
+        imageView.image = Resources.Images.itemImage
         imageView.contentMode = .scaleAspectFit
         return imageView
     }()
     
     private lazy var newImage: UIImageView = {
         let image = UIImageView()
-        image.image = UIImage(named: "New")
+        image.image = Resources.Images.newImage
         return image
     }()
     
@@ -57,16 +60,17 @@ class ProductViewController: UIViewController {
         let label = UILabel()
         label.font = UIFont.systemFont(ofSize: 24, weight: .bold)
         label.text = "Кожанные лоферы"
-        label.textColor = .black
+        label.textColor = Resources.FigmaColors.titleLabelColor
         label.numberOfLines = 1
         return label
     }()
     
-    private lazy var InfoButton: UIImageView = {
-        let imageView = UIImageView()
-        imageView.image = UIImage(systemName: "info.circle")
-        imageView.tintColor = .gray
+    private lazy var infoButton: InfoButton = {
+        let imageView = InfoButton()
+        let action = UIAction { action in
+        debugPrint("click")}
         imageView.contentMode = .scaleAspectFit
+        imageView.addAction(action, for: .primaryActionTriggered)
         return imageView
        }()
     
@@ -75,13 +79,13 @@ class ProductViewController: UIViewController {
         label.font = UIFont.systemFont(ofSize: 17, weight: .regular)
         label.text = "Лоферы из натуральной кожи. Фигурная союзка с фактурным швом по контуру. Зауженный мыс. Кожаная стелька и подкладка. Прорезиненная подошва. В комплект входит пыльник."
         label.numberOfLines = 0
-        label.textColor = .gray
+        label.textColor = Resources.FigmaColors.descriptionColor
         return label
     }()
     
     private lazy var containerButtonView: UIView = {
         let view = UIView()
-        view.backgroundColor = .white
+        view.backgroundColor = Resources.FigmaColors.whiteColor
         view.layer.shadowColor = UIColor.black.cgColor
         view.layer.shadowOffset = CGSize(width: 0, height: -2)
         view.layer.shadowRadius = 3
@@ -99,7 +103,7 @@ class ProductViewController: UIViewController {
     
     private lazy var borderView: UIView = {
         let view = UIView()
-        view.backgroundColor = .white
+        view.backgroundColor = Resources.FigmaColors.borderColor
         return view
     }()
 
@@ -114,7 +118,16 @@ class ProductViewController: UIViewController {
         stack.spacing = 8
         return stack
     }()
-
+    
+    init(productId: String) {
+        self.productId = productId
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     // MARK: - Lifecycle
     
     override func viewDidLoad() {
@@ -145,6 +158,7 @@ extension ProductViewController: SizeEntityViewDelegate {
 
     func didSelectSize(with size: String) {
         bind(sizes: sizes, selectedSize: size)
+        debugPrint("selected size: \(size), \(productId)")
     }
 
 }
@@ -229,8 +243,8 @@ extension ProductViewController {
             
             titleStack.addArrangedSubview(titleLable)
             
-            titleStack.addArrangedSubview(InfoButton)
-            InfoButton.snp.makeConstraints { make in
+            titleStack.addArrangedSubview(infoButton)
+            infoButton.snp.makeConstraints { make in
                 make.height.width.equalTo(32)
             }
             

@@ -24,7 +24,6 @@ class SizeEntityView: UIView  {
     private lazy var containerView: UIView = {
         let view = UIView()
         view.layer.cornerRadius = 17
-        view.backgroundColor = .lightGray
         view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(didTap)))
         return view
     }()
@@ -39,8 +38,6 @@ class SizeEntityView: UIView  {
     private lazy var titleLabel: UILabel = {
         let label = UILabel()
         label.font = .systemFont(ofSize: 14, weight: .medium)
-        label.text = "Size"
-        label.textColor = UIColor(named: "Dark")
         return label
     }()
     
@@ -77,8 +74,8 @@ class SizeEntityView: UIView  {
     func bind(size: String, isSelected: Bool) {
             self.size = size
             titleLabel.text = size
-            containerView.backgroundColor = isSelected ? UIColor(named: "Brown") : UIColor(named: "LightGray")
-            titleLabel.textColor = isSelected ? .white : .black
+            containerView.backgroundColor = isSelected ? Resources.FigmaColors.sizeEntitySelectColor : Resources.FigmaColors.sizeEntityColor
+            titleLabel.textColor = isSelected ? Resources.FigmaColors.whiteColor : Resources.FigmaColors.titleLabelColor
         }
     // MARK: - Actions
 
