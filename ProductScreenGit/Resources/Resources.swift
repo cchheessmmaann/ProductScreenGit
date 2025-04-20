@@ -10,6 +10,8 @@ import UIKit
 
 struct Resources {
     
+    static let screenWidth = UIScreen.main.bounds.width
+    
     struct Images {
         
         static let itemImage = UIImage(named: "itemImage")
@@ -19,6 +21,10 @@ struct Resources {
         static let catalogIcon = UIImage(named: "catalogIcon")
         static let basketIcon = UIImage(named: "basketIcon")
         
+        static let blazer = UIImage(named: "blazer")
+        static let jeans = UIImage(named: "jeans")
+        static let pants = UIImage(named: "pants")
+        static let tshort = UIImage(named: "tshort")
     }
     
     struct FigmaColors {
@@ -34,6 +40,11 @@ struct Resources {
         static let sizeEntityColor = UIColor(named: "sizeEntityColor")
         static let sizeEntitySelectColor = UIColor(named: "sizeEntitySelectColor")
         
+        static let typeEntitySelectColor = UIColor(named: "typeEntitySelectColor")
+        static let typeEntityColor = UIColor(named: "typeEntityColor")
+        
+        static let secondaryButton = UIColor(named: "secondaryButton")
+        static let secondaryButtonTitleBrown = UIColor(named: "StringsecondaryButtonTitleBrown")
     }
     
     struct Alpha {

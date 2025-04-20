@@ -86,7 +86,6 @@ extension TabBarController {
 
         setViewControllers([catalogVC, basketVC], animated: true)
 
-        //add UIelements and constraints
         view.addSubview(contentView)
         contentView.snp.makeConstraints { make in
             make.leading.trailing.equalToSuperview()

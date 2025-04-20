@@ -12,7 +12,10 @@ class ProductViewController: UIViewController {
     
     // MARK: - UIElements
     private let sizes = ["XXS","XS", "S", "M", "L", "XL", "XXL"]
+    
     private var selectedSize: String?
+    
+    var productId: String
     
     private lazy var containerView: UIView = {
         let view = UIView()
@@ -115,7 +118,16 @@ class ProductViewController: UIViewController {
         stack.spacing = 8
         return stack
     }()
-
+    
+    init(productId: String) {
+        self.productId = productId
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     // MARK: - Lifecycle
     
     override func viewDidLoad() {
@@ -146,6 +158,7 @@ extension ProductViewController: SizeEntityViewDelegate {
 
     func didSelectSize(with size: String) {
         bind(sizes: sizes, selectedSize: size)
+        debugPrint("selected size: \(size), \(productId)")
     }
 
 }
